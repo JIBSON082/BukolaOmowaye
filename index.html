@@ -15,7 +15,7 @@
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#080b2e;--card:#121748;--tx:#F2F3FF;--mut:#a9aed9;--hl:#8da2ff;color-scheme:dark}}
 :root[data-theme="dark"]{--paper:#080b2e;--card:#121748;--tx:#F2F3FF;--mut:#a9aed9;--hl:#8da2ff;color-scheme:dark}
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
-html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--paper);-webkit-text-size-adjust:100%}
+html{overflow-x:hidden;max-width:100%;scroll-padding-top:env(safe-area-inset-top,0px);background:var(--paper);-webkit-text-size-adjust:100%}
 html.lenis,html.lenis body{height:auto}.lenis.lenis-smooth{scroll-behavior:auto!important}
 body{background:var(--paper);color:var(--tx);font:400 16px/1.6 var(--b);overflow-x:clip;-webkit-font-smoothing:antialiased}
 body.lock{overflow:hidden}
@@ -178,6 +178,7 @@ footer{background:var(--bl);color:#fff;padding:36px 0 30px}footer .w{display:fle
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01ms!important}.js .rv,.hv,.wi,.ln>span{opacity:1;transform:none}.sw{opacity:1}#sp,#sp2,#wipe{display:none!important}.bars i,.tb .f{transform:none!important}}
 </style>
 </head>
+
 <body>
 <div id="sp2"></div><div id="sp" aria-hidden="true"><div><b>Bukola<i>.</i></b><small>Brand Strategist · Social Media Manager</small></div></div>
 <div id="wipe" aria-hidden="true"></div><div id="cur" aria-hidden="true"></div><div id="prog"></div>
